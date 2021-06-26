@@ -8,7 +8,7 @@
 
 # Before we start, we shold learn something
 * http://linux.vbird.org/linux_basic/0230filesystem.php
-* Now, we know that a system to management files is not difficult.
+* Now, we know that a system to management files is not difficult to make.
 * So, first, we should know memories have been partitiated into numerous boxes with same size such as 4K.
 * I know we say blocks or pages.
 * And a file would be partitiated into small file stored in some boxes.
