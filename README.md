@@ -7,7 +7,7 @@
 * Think about how did you store your money? money with lock? ,Or just put everything in your drawers or cabinets?
 
 
-## Before we start, we shold learn something
+## Before we start, we should learn something
 * http://linux.vbird.org/linux_basic/0230filesystem.php
 * First, we need to know that a computer do not has eyes and has to use wires or something following a sequence of steps to read or write files.
 * If we do not know the address of a file, we need to find it from 0x0 to 0x..N and see whether this address stored the file we wanted.
