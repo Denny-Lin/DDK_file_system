@@ -14,7 +14,7 @@
 * If we do not know the address of a file, we need to find it from 0x0 to 0x..N and see whether this address stored the file we wanted.
 * So we should give this file a specific address and number.
 * An address matching a wire can just take a constant time "O(1)" to get that address, but we do not have such this kind of disk.
-* This means we should do like a "For Loop" to get that address.
+* This means we should do like a "For Loop with O(n)" to get that address.
 * Otherwise, we also have a lot of files with different size to store.
 * So one of our strategies is to partition every file.
 * Now, we know that making a system to management files is a challenge.
