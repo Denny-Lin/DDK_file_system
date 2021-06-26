@@ -6,7 +6,7 @@
 * Think about how did you store your money? money with lock? ,Or just put everything in your drawers or cabinets?
 
 
-# Before we start, we shold learn something
+## Before we start, we shold learn something
 * http://linux.vbird.org/linux_basic/0230filesystem.php
 * Now, we know that making a system to management files is not difficult.
 * So, first, we should know memories have been partitiated into numerous boxes with same size such as 4K.
