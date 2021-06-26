@@ -8,10 +8,16 @@
 
 ## Before we start, we shold learn something
 * http://linux.vbird.org/linux_basic/0230filesystem.php
-* First, we need to know that computer do not has eyes and has to use wires or something following a sequence of steps to read or write files.
-* Now, we know that making a system to management files is not difficult.
-* So, first, we should know memories have been partitiated into numerous boxes with same size such as 4K.
+* First, we need to know that a computer do not has eyes and has to use wires or something following a sequence of steps to read or write files.
+* If we do not know the address of a file, we need to find it from 0x0 to 0x..N and see whether this address stored the file we wanted.
+* So we should give this file a specific address and number.
+* An address matching a wire can have just take a constant time "O(1)" to get that address, but we do not have such this kind of disk.
+* This means we should do like a "For Loop" to get that address.
+* Otherwise, we also have a lot of files with different size to store.
+* So one of our strategies is to partition every file.
+* Now, we know that making a system to management files is a challenge.
+* So, first, we should know memories have been partitioned into numerous boxes with same size such as 4K.
 * I know we say blocks or pages.
-* And a file would be partitiated into small file stored in some boxes.
-* We should make a structure to record which box we store, so the boxes will have their specificed numbers.
+* And a file would be partitioned into small files stored in some boxes.
+* We should make a structure to record which box we stored, so the boxes would have their specificed numbers.
 * ...
