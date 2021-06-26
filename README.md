@@ -8,6 +8,7 @@
 
 ## Before we start, we shold learn something
 * http://linux.vbird.org/linux_basic/0230filesystem.php
+* First, we need to know that computer do not has eyes and has to use wires or something following a sequence of steps to read or write files.
 * Now, we know that making a system to management files is not difficult.
 * So, first, we should know memories have been partitiated into numerous boxes with same size such as 4K.
 * I know we say blocks or pages.
