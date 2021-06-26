@@ -4,7 +4,8 @@
 * So let us see how to do it.
 * I also do not want to see the codes from others.
 * Because we are a creator, not jsut using a tool or asking a question to people "do you know pthread?". 
-* Actually, I would reply "I know how to park the car in the department store when having an anniversary sale, and I also know how to lock the car door.".
+* Actually, I would reply "I know how to park the car in the department store when having an anniversary sale, 
+  and I also know how to lock the car door.".
 * So we only need a concept about "how to store something in your life?".
 * Think about how did you store your money? money with lock? ,Or just put everything in your drawers or cabinets?
 
