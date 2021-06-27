@@ -39,3 +39,8 @@ struct space memory={
 };
 ```
 
+```C
+struct box{
+  //...
+};
+```
