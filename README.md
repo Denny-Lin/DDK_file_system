@@ -44,3 +44,9 @@ struct box{
   //...
 };
 ```
+* And we also need a table to record the information of a file.
+```C
+struct file_table{
+  //...
+};
+```
