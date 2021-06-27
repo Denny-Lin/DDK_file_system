@@ -41,11 +41,12 @@ struct space memory={
 * Now, let us think about the first box of a file.
 ```C
 struct box{
-  unsigned int No;	
+  int data[4*1024];
   //...
 };
 ```
 * And we also need a table to record the information of a file.
+* This table was also stored in a box with size less than 4K.
 ```C
 struct file_table{
   //...
