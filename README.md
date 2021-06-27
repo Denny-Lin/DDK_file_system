@@ -27,9 +27,9 @@
 * Let us assume that each box is 4K and we have 1000 boxes, so the total size of memories would be 4M (1024K = 1M). 
 ```C
 struct space{
-  unsigned int box_num;
-  unsigned int box_size;
-  unsigned int space_size;
+	unsigned int box_num;
+	unsigned int box_size;
+	unsigned int space_size;
 };
 
 struct space memory={
