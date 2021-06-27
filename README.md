@@ -41,6 +41,7 @@ struct space memory={
 * Now, let us think about the first box of a file.
 ```C
 struct box{
+  unsigned int No;	
   //...
 };
 ```
@@ -50,3 +51,7 @@ struct file_table{
   //...
 };
 ```
+* We have two types to link every parts of file:
+  1. box->next;
+  2. file_table{//store address here};
+
