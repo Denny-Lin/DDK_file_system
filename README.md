@@ -3,7 +3,7 @@
 * I do not have a teacher; however, I still want to make a file system, ...
 * So let us see how to do it.
 * I also do not want to see the codes from others.
-* Because we are a creator, not jsut using a tool or asking a question to people "do you know pthread?". 
+* Because we are a creator, not just using a tool or asking a question to people "do you know pthread?". 
 * Actually, I would reply "I know how to park the car in the department store when having an anniversary sale, <br>
   and I also know how to lock the car door.".
 * So we only need a concept about "how to store something in your life?".
@@ -24,4 +24,18 @@
 * I know we say blocks or pages.
 * And a file would be partitioned into small files stored in some boxes.
 * We should make a structure to record which box we stored, so the boxes would have their specificed numbers.
-* ...
+* Let us assume that each box is 4K and we have 1000 boxes, so the total size of memories would be 4M (1024K = 1M). 
+```C
+struct space{
+  unsigned int box_num;
+  unsigned int box_size;
+  unsigned int space_size;
+};
+
+	struct space memory={
+		.box_num=1000,
+		.box_size = 4*1024,
+		.space_size = memory.box_size*memory.box_num
+	};
+```
+
