@@ -32,10 +32,10 @@ struct space{
   unsigned int space_size;
 };
 
-	struct space memory={
-		.box_num=1000,
-		.box_size = 4*1024,
-		.space_size = memory.box_size*memory.box_num
-	};
+struct space memory={
+	.box_num=1000,
+	.box_size = 4*1024,
+	.space_size = memory.box_size*memory.box_num
+};
 ```
 
