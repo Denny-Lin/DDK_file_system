@@ -53,5 +53,5 @@ struct file_table{
 ```
 * We have two types to link every parts of file:
   1. box->next;
-  2. file_table{//store address here};
+  2. file_table{  //store address here  };
 
