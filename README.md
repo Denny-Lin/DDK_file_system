@@ -55,7 +55,7 @@ struct file_table{
   1. box->next;
   2. file_table{  //Store all the addresses here.  };
 * I prefer second type, so ...
-* 
+* We use linked list to connect each part of file.
 ```C
 struct node{
   struct box* part_file;
