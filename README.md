@@ -66,7 +66,7 @@ struct node{
 struct file_table{
   int file_name;
   unsigned int file_size;
-  struct node* file;
+  struct node* file;  //32bits 4bytes, 64bits 8bytes
   //...
 };
 ```
