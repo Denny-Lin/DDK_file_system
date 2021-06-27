@@ -54,4 +54,17 @@ struct file_table{
 * We have two types to link every parts of file:
   1. box->next;
   2. file_table{  //Store all the addresses here.  };
+* I prefer second type, so ...
+* 
+```C
+struct node{
+  struct box* part_file;
+  struct node* next;
+};
+
+struct file_table{
+  struct node file;
+  //...
+};
+```
 
