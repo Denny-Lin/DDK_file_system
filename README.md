@@ -38,7 +38,7 @@ struct space memory={
 	.space_size = memory.box_size*memory.box_num
 };
 ```
-
+* Now, let us think about the first box of a file.
 ```C
 struct box{
   //...
