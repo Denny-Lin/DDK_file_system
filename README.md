@@ -63,6 +63,8 @@ struct node{
 };
 
 struct file_table{
+  int file_name;
+  int file_size;
   struct node file;
   //...
 };
