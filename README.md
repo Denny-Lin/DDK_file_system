@@ -41,7 +41,7 @@ struct space memory={
 * Now, let us think about the first box of a file.
 ```C
 struct box{
-  int data[4*1024];
+  char data[4*1024];
   //...
 };
 ```
