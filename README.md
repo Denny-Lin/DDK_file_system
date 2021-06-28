@@ -122,5 +122,6 @@ write_function()
 * This dynamic address here means the phiscal address.
 * It looks like we have phiscal address. <br>
 ![image](https://user-images.githubusercontent.com/67073582/123671180-9274d880-d870-11eb-91e5-a7dcec2cc021.png) <br>
+* Maybe initial_address() just do once when formating the real disk.
 * Someday, if this application can format a disk using our method by OS driver, we can also get the information of phiscal address stored in one of blocks.
 * ...
