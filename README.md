@@ -115,7 +115,7 @@ write_function()
 * BY THE WAY ##I just think maybe I could create my personal SQL_file_system ##
 ## A: I will not use this eazy way!
 
-## We will use "initial_address()" to avoid the problem of address.
+## We will use "initial_address()" everytime to avoid the problem of address.
 * Since we want to build a real file system, we should have address.
 * Our "memory management unit" need to know the phiscal address.
 * So our initial_address() will find all the dynamic address of the boxes and store them.
