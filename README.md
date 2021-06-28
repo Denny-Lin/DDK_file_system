@@ -87,7 +87,7 @@ struct file_table{
 * It means we will have an initial function to do something.
 * ...
 ```C
-if "space.ddkfs" do not exist then
+if "Space.ddkfs" do not exist then
 	struct space memory={.....}
 	create space.ddkfs 
 	//open, 
@@ -95,7 +95,7 @@ if "space.ddkfs" do not exist then
 	//save info in the first box,
 	//close
 
-open space.ddkfs
+open Space.ddkfs
 
 "initail" all the address of boxes
 ...
@@ -108,4 +108,4 @@ write_function()
 * This is one type we could used, but it is not a good idea of "Module".
 
 ## Let us do another method
-* "Space" just be a file.
+* "Space.ddkfs" just be a file.
