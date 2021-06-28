@@ -96,10 +96,10 @@ if "Space.ddkfs" do not exist then
 
 open Space.ddkfs
 
-"initial" all the address of boxes
+initial_address()//initial all the address of boxes
 ...
 ...
-save "initial_data" in the first box
+save "initial_address()" in the first box
 
 read_function()
 write_function()
@@ -115,11 +115,11 @@ write_function()
 * BY THE WAY ##I just think maybe I could create my personal SQL_file_system ##
 ## A: I will not use this eazy way!
 
-## We will use initial_data() to avoid the problem of address.
+## We will use "initial_address()" to avoid the problem of address.
 * Since we want to build a real file system, we should have address.
 * Our "memory management unit" need to know the phiscal address.
-* So our initial_data() will find all the dynamic address of the boxes and store them.
-* This dynamic address means the phiscal address.
+* So our initial_address() will find all the dynamic address of the boxes and store them.
+* This dynamic address here means the phiscal address.
 * It looks like we have phiscal address. <br>
 ![image](https://user-images.githubusercontent.com/67073582/123671180-9274d880-d870-11eb-91e5-a7dcec2cc021.png) <br>
 * Someday, if this application can format a disk using our method by OS driver, we can also get the information of phiscal address stored in one of blocks.
