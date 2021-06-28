@@ -113,7 +113,7 @@ write_function()
 * Linux: dd if=/dev/zero of=/tmp/Space.ddkfs bs=4K count=1000
 * We could do something like this "dd" command.
 * BY THE WAY ##I just think maybe I could create my personal SQL_file_system ##
-### I will not use this eazy way!!!!
+## A: I will not use this eazy way!
 
 ## We will use initial_data() to avoid the problem of address.
 * Since we want to build a real file system, we should have address.
