@@ -80,4 +80,32 @@ struct file_table{
 * You are right. This behavior we called it "format".
 * We do it in user space, but this file will be stored in the real disk.
 * BY THE WAY ##I just think maybe I could create my personal SQL_file_system ##
+* I am thinking of the strategy of "bitmap".
+* If we formated the space and next time we use this file, we just read the space informations in the first box.
+* The first address is dynamic allocated, becuase we use ram.
+* So, the first box will also store all the addresses or an offset of the first address for all the first address of boxes. 
+* It means we will have an initial function to do something.
+* ...
+```C
+if "space.ddkfs" do not exist then
+	struct space memory={.....}
+	create space.ddkfs 
+	//open, 
+	//partition,
+	//save info in the first box,
+	//close
+
+open space.ddkfs
+
+"initail" all the address of boxes
+...
+...
+save "initail_data" in the first box
+
+read_function()
+write_function()
+```
+* This is one type we could used, but it is not a good idea of "Module".
+
+## Let us do another method
 * ...
