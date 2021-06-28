@@ -71,3 +71,8 @@ struct file_table{
 };
 ```
 
+* Now, what will we do? 
+* We will create a file,called "space" used open(rw);
+* The size of this file would be 4K, and we will partition it.
+* finally, we will read a file and store in this "sapce", and read data from this "space" to merge into a original file.
+
