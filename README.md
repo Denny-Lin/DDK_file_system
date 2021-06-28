@@ -121,4 +121,5 @@ write_function()
 * So our initial_data() will find all the dynamic address of the boxes and store.
 * This dynamic address means the phiscal address.
 * It looks like we have phiscal address. 
+![image](https://user-images.githubusercontent.com/67073582/123671180-9274d880-d870-11eb-91e5-a7dcec2cc021.png)
 * ....
