@@ -76,7 +76,7 @@ struct file_table{
 * The size of this file would be 4K * 1000, and we will partition it.
 * finally, we will read a file and store in this "sapce", and read data from this "space" to merge into a original file.
 
-## Function of Formate() 
-* You are right. This behavior we called it "formate".
+## Function of Format() 
+* You are right. This behavior we called it "format".
 * We do it in user space, but this file will be stored in the real disk.
 * ...
