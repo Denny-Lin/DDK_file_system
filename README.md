@@ -117,4 +117,8 @@ write_function()
 
 ## We will use initial_data() to avoid the problem of address.
 * Since we want to build a real file system, we should have address.
-* ...
+* Our "memory management unit" need to know the phiscal address.
+* So our initial_data() will find all the dynamic address of the boxes and store.
+* This dynamic address means the phiscal address.
+* It looks like we have phiscal address. 
+* ....
