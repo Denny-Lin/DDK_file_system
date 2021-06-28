@@ -116,5 +116,5 @@ write_function()
 ## "I will not use this eazy way!!!!"
 
 ## We will use initial_data() to avoid the problem of address.
-* we want to build a real file system, we should have address.
+* Since we want to build a real file system, we should have address.
 * ...
