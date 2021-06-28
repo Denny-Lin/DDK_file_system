@@ -79,4 +79,5 @@ struct file_table{
 ## Function of Format() 
 * You are right. This behavior we called it "format".
 * We do it in user space, but this file will be stored in the real disk.
+* BY THE WAY ##I just think maybe I could create my personal SQL_file_system ##
 * ...
