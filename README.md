@@ -113,7 +113,7 @@ write_function()
 * Linux: dd if=/dev/zero of=/tmp/Space.ddkfs bs=4K count=1000
 * We could do something like this "dd" command.
 * BY THE WAY ##I just think maybe I could create my personal SQL_file_system ##
-## A: I will not use this eazy way!
+* A: I will not use this eazy way!
 
 ## We will use "initial_address()" everytime to avoid the problem of address.
 * Since we want to build a real file system, we should have address.
@@ -124,4 +124,7 @@ write_function()
 ![image](https://user-images.githubusercontent.com/67073582/123671180-9274d880-d870-11eb-91e5-a7dcec2cc021.png) <br>
 * Maybe initial_address() just do once when formating the real disk.
 * Someday, if this application can format a disk using our method by OS driver, we can also get the information of phiscal address stored in one of blocks.
+* ...
+## Now, we have a fromated disk called "Space.ddkfs".
+* We can develope two program, such as, file management and visual window.
 * ...
