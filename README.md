@@ -1,5 +1,5 @@
 # DDK_file_system_concept
-##I did not watch any video from youtube, just thinking this concept by myself cuz I know some videos have the same thinkings.##
+*##I did not watch any video from youtube, just thinking this concept by myself cuz I know some videos have the same thinkings.##*
 * To make a simple file system.
 * I do not have a teacher; however, I still want to make a file system, ...
 * So let us see how to do it.
